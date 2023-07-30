@@ -19,15 +19,13 @@ This is a Deep Learning based command line application project which detects the
 The requirement for this Python project is a webcam through which we will capture images. You need to have Python (3.6 and above version recommended) installed on your system, then using pip, you can install the necessary packages.
 
 - activate the virtual environment
-```venv\Scripts\activate
-```
+```venv\Scripts\activate```
 
 - install the required packages
-```pip install -r requirements.txt
-```
+```pip install -r requirements.txt```
+
 - run the project
-```python drowsiness_detection.py
-```
+```python drowsiness_detection.py```
 
 The “haar cascade files” folder contains the xml files required to see the object from the drawing. For us, we look for the person’s face and eyes.
 In the models folder we have the model file “cnnCat2.h5” which was trained on convolutional neural networks.
